@@ -1,0 +1,70 @@
+@media (max-width: 768px) { 
+    .sidebar_container{
+        display: none;
+    }
+
+    .menu_btn {
+        display: inline;
+        top: 1rem;
+        left: 1rem;
+    }
+}
+
+@media (min-width: 768px) { 
+    .menu_btn {
+        display: none !important;
+    }
+}
+.sidebar {
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+.sidebar_container{
+    padding-top: 65px;
+}
+
+.nav-item :hover {
+  text-decoration: underline !important;
+}
+.sidebar_img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-image: url("../../assets/images/about-BgAkqdr2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.name {
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-family: "Playfair Display, Georgia, serif";
+}
+.info {
+    font-size: .75rem;
+    margin-bottom: 1.5rem;
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    color: #000000b3;
+    line-height: 1.8;
+    letter-spacing: 1px
+}
+.info_link {
+    color:#2c98f0;
+    line-height:1.8;
+    
+}
+.nav_element {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 0;
+    transition: .3s;
+    color: #000000b3;
+    position: relative;
+
+}

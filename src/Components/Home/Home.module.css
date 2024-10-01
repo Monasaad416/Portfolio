@@ -1,0 +1,15 @@
+html,body{
+    overflow:hidden;
+}
+
+img{
+  margin-top: -7rem;
+}
+.carousel_caption {
+  top: 40%;
+  left: 15%;
+}
+.carousel_caption h1 {
+  font-size: 5rem;
+  font-family: 'Playfair Display','Georgia',serif;
+}

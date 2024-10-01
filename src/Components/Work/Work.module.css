@@ -1,0 +1,100 @@
+html, body {
+  overflow-y: inherit !important;
+}
+@media (min-width: 768px) { 
+    .work_section{
+    padding:  0 12.4% !important;
+}
+}
+
+
+.title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family:'Quicksand', Arial, sans-serif;
+}
+
+.my_work {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.work_text {
+    font-family:'Tangerine', serif;
+    font-size: 1.01rem;
+    line-height: 2.3;
+    letter-spacing: 0.08rem;
+    color: #000000b3;
+    text-align:justify;
+}
+
+
+img {
+  display: block;
+  width: 100%;
+ height: 100% !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: var(--blue);
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+  padding: 3rem 1.7rem;
+}
+.overlay_container {
+    height: 25.8rem !important;
+    background-color:red
+}
+.overlay_container:hover .overlay {
+  opacity: 1;
+}
+.overlay_title{
+    font-family: Quicksand, Arial, sans-serif;
+    font-size: 1rem;
+ 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform .3s, opacity .3s, -webkit-transform .3s;
+    margin-bottom: 15px;
+}
+
+.overlay_title a {
+    color: white;
+}
+
+.icons {
+    position: absolute;
+    left: 1.7rem;
+    bottom: 7rem;
+}
+.anchor_bg {
+    background-color: #ffffff80 !important;
+    color: black;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.4rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+}    

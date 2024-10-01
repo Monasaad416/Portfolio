@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+
+
+:root {
+  --blue: #2c98f0;
+  --red: #ec5453;
+  --yellow: #f9bf3f;
+  --purbel :#a84cb8;
+  --green: #2fa499;
+  --navy:#4054b2 ;
+}
+
+html, body {
+  overflow: hidden;
+  background-color: #ffffff;
+}

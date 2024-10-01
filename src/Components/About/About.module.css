@@ -1,0 +1,76 @@
+
+
+
+.about_section{
+    padding:  10% !important;
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family:'Quicksand', Arial, sans-serif;
+}
+
+.who_am_i {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.about_text {
+    font-family:'Tangerine', serif;
+    font-size: 1.01rem;
+    line-height: 2.3;
+    letter-spacing: 0.08rem;
+    color: #000000b3;
+    text-align:justify;
+}
+
+.service_container {  
+    -webkit-box-shadow: -13px -13px 69px -20px rgba(179,173,179,1);
+    -moz-box-shadow: -13px -13px 69px -20px rgba(179,173,179,1);
+    box-shadow: -13px -13px 69px -20px rgba(179,173,179,1);
+    margin-right: 25px;
+    width: 22%;
+ 
+}
+.blue_border {
+      border-bottom: 2px solid var(--blue);
+}
+.red_border {
+      border-bottom: 2px solid var(--red);
+}
+.yellow_border {
+      border-bottom: 2px solid var(--yellow);
+}
+.purbel_border {
+      border-bottom: 2px solid var(--purbel);
+}
+.service_name {
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+}    
+
+.lightbulb_icon{
+    color: var(--blue); 
+}
+.earth_africa_icon {
+    color: var(--red); 
+}
+.database_icon {
+    color: var(--yellow); 
+}
+.mobile_icon {
+    color: var(--purbel); 
+}
+

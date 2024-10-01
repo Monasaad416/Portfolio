@@ -1,0 +1,140 @@
+
+.skills_section{
+    padding:  10% !important;
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family:'Quicksand', Arial, sans-serif;
+}
+
+.my_skills {
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.skills_text {
+    font-family:'Tangerine', serif;
+    font-size: 1.01rem;
+    line-height: 2.3;
+    letter-spacing: 0.08rem;
+    color: #000000b3;
+    text-align:justify;
+}
+
+.progree_title {
+    font-size: 1rem;
+    font-family: Quicksand, Arial, sans-serif;
+    color: #000;
+    margin: 25px 0 0;
+}
+.progress_base_layer{
+    width: 90%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #f2f3f7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+ 
+}
+.progress_photoshop_layer{
+    width: 75%;
+    height: 6px;
+    border-radius: 4px;
+    background-color: var(--blue);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.progress_jqury_layer{
+    width: 60%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--red);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.progress_html_layer{
+    width: 85%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--yellow);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.progress_css_layer{
+    width: 90%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--purbel);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.progress_wordpress_layer{
+    width: 70%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--green);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.progress_seo_layer{
+    width: 80%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--navy);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.photoshop_title_percentage{
+   width: 67%;
+   color:var(--blue)
+}
+
+.jquery_title_percentage{
+   width: 55%;
+   color:var(--red)
+}
+.html_title_percentage{
+   width: 75%;
+   color:var(--yellow)
+}
+.css_title_percentage{
+   width: 85%;
+   color:var(--purbel)
+}
+.wordpress_title_percentage{
+   width: 63%;
+   color:var(--green)
+}
+.seo_title_percentage{
+   width: 72%;
+   color:var(--navy)
+}
