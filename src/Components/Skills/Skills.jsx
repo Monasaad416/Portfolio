@@ -19,9 +19,9 @@ export default function Skills() {
               way.
             </p>
 
-            <div className="row d-flex mt-4">
+            <div className="row">
               <div className="col-md-6">
-                <div className="progress_container">
+                <div className="progress_container mt-4">
                   <div
                     className={`text-nowrap ${styles.photoshop_title_percentage} d-flex justify-content-between`}
                   >
@@ -43,14 +43,14 @@ export default function Skills() {
               </div>
 
               <div className="col-md-6">
-                <div className="progress_container">
+                <div className="progress_container mt-4">
                   <div
                     className={`text-nowrap ${styles.jquery_title_percentage} d-flex justify-content-between`}
                   >
                     <h5
                       className={`fw-lighter text-capitalize ${styles.progress_title}`}
                     >
-                      jQuery
+                      jquery
                     </h5>
                     <h6>60%</h6>
                   </div>
@@ -58,7 +58,7 @@ export default function Skills() {
                     className={`${styles.progress_base_layer} position-relative`}
                   >
                     <div
-                      className={`${styles.progress_jqury_layer} position-absolute`}
+                      className={`${styles.progress_jquery_layer} position-absolute`}
                     ></div>
                   </div>
                 </div>
@@ -150,7 +150,6 @@ export default function Skills() {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>

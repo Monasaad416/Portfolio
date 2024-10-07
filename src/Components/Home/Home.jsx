@@ -15,26 +15,35 @@ export default function Home() {
         <div className="carousel-item active">
           <img
             src={carouserImg2}
-            className="d-block w-100"
+            className={`d-block w-100 ${styles.carousel_img}`}
             alt="first background"
           />
-          <div className={`${styles.carousel_caption} position-absolute d-none d-md-block`}>
-            <h1 className='fw-bold'>
+          <div className={`${styles.carousel_caption} position-absolute`}>
+            <h1 className="fw-bold">
               I am <br />a Designer
             </h1>
 
-            <p className="text-lg-start text-center">100% html5 bootstrap templates Made <br/> By <a href="https://colorlib.com/">Colorlib.com</a></p>
+            <p className="text-lg-start text-center">
+              100% html5 bootstrap templates Made <br /> By{" "}
+              <a href="https://colorlib.com/">Colorlib.com</a>
+            </p>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item active">
           <img
             src={carouserImg1}
-            className="d-block w-100"
-            alt="sec background"
+            className={`d-block w-100 ${styles.carousel_img}`}
+            alt="first background"
           />
-          <div className={`${styles.carousel_caption} d-none d-md-block`}>
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+          <div className={`${styles.carousel_caption} position-absolute`}>
+            <h1 className="fw-bold">
+              I am <br />a Designer
+            </h1>
+
+            <p className="text-lg-start text-center">
+              100% html5 bootstrap templates Made <br /> By{" "}
+              <a href="https://colorlib.com/">Colorlib.com</a>
+            </p>
           </div>
         </div>
       </div>

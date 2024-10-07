@@ -19,9 +19,9 @@ export default function About() {
               way.
             </p>
 
-            <div className="row d-flex mt-4">
+            <div className="row mt-4">
               <div
-                className={`col-md-3 pb-0  bg-white ${styles.service_container} ${styles.blue_border}`}
+                className={`col-md-3 pb-0 bg-white ${styles.service_container} ${styles.blue_border}`}
               >
                 <div className={`px-3 mt-5 ${styles.service}`}>
                   <span className={`mb-3 ${styles.lightbulb_icon}`}>

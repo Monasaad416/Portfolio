@@ -3,9 +3,24 @@ html, body {
 }
 @media (min-width: 768px) { 
     .work_section{
-    padding:  0 12.4% !important;
+        padding:  0 12.4% !important;
+        margin-top:7rem !important;
+    }
+
+    .sec_section{
+        padding:  0 12.4% !important;
+        margin-top:7rem !important;
+    }
 }
+
+@media (max-width: 768px) { 
+
+    .work_item{ 
+        margin-bottom: 7rem !important;
+    }
+    
 }
+
 
 
 .title {
@@ -63,7 +78,11 @@ img {
 }
 .overlay_container {
     height: 25.8rem !important;
-    background-color:red
+
+
+}
+.first_container {
+    margin-bottom: 6rem !important;
 }
 .overlay_container:hover .overlay {
   opacity: 1;

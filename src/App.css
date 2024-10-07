@@ -16,3 +16,9 @@ html, body {
   overflow: hidden;
   background-color: #ffffff;
 }
+
+@media (max-width: 768px) { 
+    html,body {
+        margin-top: 1rem;
+    }
+  }    

@@ -11,6 +11,7 @@ import NotFound from "./Components/NotFound/NotFound.jsx";
 
 import MasterLayout from './Components/MasterLayout/MasterLayout'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import GraphicDesign from './Components/GraphicDesign/GraphicDesign.jsx';
 
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
         { path: "home", element: <Home /> },
         { path: "about", element: <About /> },
         { path: "experience", element: <Experience /> },
-        { path: "work", element: <Work /> },
+        { path: "work", element: <Work /> ,children:[
+          {path: "graphic-design",element: <GraphicDesign/>},
+        ]},
         { path: "skills", element: <Skills /> },
       ],
     },

@@ -1,8 +1,9 @@
-
 .skills_section{
     padding:  10% !important;
     margin-top: 1rem;
 }
+
+
 
 .title {
     font-size: 0.8rem;
@@ -41,7 +42,7 @@
 }
 .progress_base_layer{
     width: 90%;
-    height: 8px;
+    height: 0.5rem;
     border-radius: 4px;
     background-color: #f2f3f7;
     -webkit-border-radius: 4px;
@@ -52,7 +53,7 @@
 }
 .progress_photoshop_layer{
     width: 75%;
-    height: 6px;
+    height: 0.5rem;
     border-radius: 4px;
     background-color: var(--blue);
     -webkit-border-radius: 4px;
@@ -60,9 +61,9 @@
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
-.progress_jqury_layer{
+.progress_jquery_layer{
     width: 60%;
-    height: 8px;
+    height: 0.5rem;
     border-radius: 4px;
     background-color: var(--red);
     -webkit-border-radius: 4px;
@@ -73,7 +74,7 @@
 
 .progress_html_layer{
     width: 85%;
-    height: 8px;
+    height: 0.5rem;
     border-radius: 4px;
     background-color: var(--yellow);
     -webkit-border-radius: 4px;
@@ -83,7 +84,7 @@
 }
 .progress_css_layer{
     width: 90%;
-    height: 8px;
+    height: 0.5rem;
     border-radius: 4px;
     background-color: var(--purbel);
     -webkit-border-radius: 4px;
@@ -93,7 +94,7 @@
 }
 .progress_wordpress_layer{
     width: 70%;
-    height: 8px;
+    height: 0.5rem;
     border-radius: 4px;
     background-color: var(--green);
     -webkit-border-radius: 4px;
@@ -104,7 +105,7 @@
 
 .progress_seo_layer{
     width: 80%;
-    height: 8px;
+    height: 0.5rem;
     border-radius: 4px;
     background-color: var(--navy);
     -webkit-border-radius: 4px;
