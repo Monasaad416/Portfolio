@@ -7,10 +7,10 @@ export default function MasterLayout() {
     <div>
       <div className="container-fluid" style={{ padding: 0, marginTop: 0 }}>
         <div className="row">
-          <div className="col-md-2 col-sm-12 px-0 mx-0">
+          <div className="col-md-2 px-0 mx-0">
             <Sidebar />
           </div>
-          <div className="col-md-10 col-sm-12 px-0 mx-0">
+          <div className="col-md-10 px-0 mx-0">
             <Outlet />
           </div>
         </div>

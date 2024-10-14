@@ -2,69 +2,33 @@
     html,body {
         margin-top: 3rem;
     }
-    .sidebar_container{
-        /* transform: translate(-100%, 0);
-        -webkit-transform: translate(-100%, 0);
-        -moz-transform: translate(-100%, 0);
-        -ms-transform: translate(-100%, 0);
-        -o-transform: translate(-100%, 0); */
-        display: none !important;
-    }
 
-    .mobile_sidebar_overlay {
-        width: 100vw;
-        height: 100vh;
-        position: absolute;
-        top: 0;
+  
+   .sidebar{
+        /* position: absolute;
+        top:0;
         left: 0;
-        background-color:#0a0a0a;
-        opacity: .7;
-        z-index: 999999;
-    }
-    .menu_btn { 
-        top: 1rem;
-        left: 0.7rem;
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 3.5rem;
-        height: 2.7rem;
-        padding: 0.5rem;
-        background-color:red;
-        position:absolute;
-        z-index: 9999;
-
-        border: 1px solid #a39f9f;
-        border-radius: 0.5rem    ;
-        -webkit-border-radius: 0.5rem    ;
-        -moz-border-radius: 0.5rem    ;
-        -ms-border-radius: 0.5rem    ;
-        -o-border-radius: 0.5rem    ;
-    }
-    .menu_btn span {
-    width: 100% !important;
-    height: 0.2rem !important;
-    background-color:rgb(103, 103, 104);
-    border-radius: 0.4rem    ;
-    -webkit-border-radius: 0.4rem    ;
-    -moz-border-radius: 0.4rem    ;
-    -ms-border-radius: 0.4rem    ;
-    -o-border-radius: 0.4rem    ;
+        z-index:999;
+        width: 100vw;
+            transform: translate(-100%);
+            -webkit-transform: translate(-100%);
+            -moz-transform: translate(-100%);
+            -ms-transform: translate(-100%);
+            -o-transform: translate(-100%); */
+            width: 0 !important;
     }
 }
 
-.close_menu {
-    position: absolute;
-    right: 1rem;
-    top: 2rem;
-}
+
+
 
 
 
 @media (min-width: 768px) { 
     .menu_btn {
-        display: flex !important;
+
     }
+    
 }
 
 .sidebar {

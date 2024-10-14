@@ -1,27 +1,24 @@
-import React from 'react'
 import styles from'./About.module.css'
 
 export default function About() {
   return (
-    <div className="container">
-      <div className="row ">
-        <div className="col-md-12">
-          <div className={`${styles.about_section}`}>
-            <p className={`mt-3 text-uppercase ${styles.title}`}>
-              about us
-            </p>
-            <h2 className={`text-uppercase ${styles.who_am_i}`}> who am i?</h2>
-            <p className={`mb-1 fw-normal pe-5 mt-4 ${styles.about_text}`}>
-              The Big Oxmox advised her not to do so, because there were
-              thousands of bad Commas, wild Question Marks and devious Semikoli,
-              but the Little Blind Text didn’t listen. She packed her seven
-              versalia, put her initial into the belt and made herself on the
-              way.
-            </p>
+    <div className="row ">
+      <div className="col-md-12">
+        <div className={`${styles.about_section}`}>
+          <p className={`mt-3 text-uppercase ${styles.title}`}>about us</p>
+          <h2 className={`text-uppercase ${styles.who_am_i}`}> who am i?</h2>
+          <p className={`mb-1 fw-normal pe-5 mt-4 ${styles.about_text}`}>
+            The Big Oxmox advised her not to do so, because there were thousands
+            of bad Commas, wild Question Marks and devious Semikoli, but the
+            Little Blind Text didn’t listen. She packed her seven versalia, put
+            her initial into the belt and made herself on the way.
+          </p>
 
-            <div className="row mt-4">
+          <div className="row mt-4  mx-2">
+            <div className="col d-flex flex-md-row flex-column justify-content-between">
               <div
-                className={`col-md-3 pb-0 bg-white ${styles.service_container} ${styles.blue_border}`}
+                className={`pb-0 bg-white ${styles.service_container} ${styles.blue_border}`}
+                style={{ width: "22%" }}
               >
                 <div className={`px-3 mt-5 ${styles.service}`}>
                   <span className={`mb-3 ${styles.lightbulb_icon}`}>
@@ -34,8 +31,10 @@ export default function About() {
                   </h3>
                 </div>
               </div>
+
               <div
-                className={`col-md-3 pb-0 px-4 bg-white ${styles.service_container} ${styles.red_border}`}
+                className={`pb-0 bg-white ${styles.service_container} ${styles.red_border}`}
+                style={{ width: "22%" }}
               >
                 <div className={`px-3 mt-5 ${styles.service}`}>
                   <span className={`mb-3 ${styles.earth_africa_icon}`}>
@@ -50,7 +49,8 @@ export default function About() {
               </div>
 
               <div
-                className={`col-md-3 pb-0 px-4 bg-white ${styles.service_container} ${styles.yellow_border}`}
+                className={`pb-0 bg-white ${styles.service_container} ${styles.yellow_border}`}
+                style={{ width: "22%" }}
               >
                 <div className={`px-3 mt-5 ${styles.service}`}>
                   <span className={`mb-3 ${styles.database_icon}`}>
@@ -65,7 +65,8 @@ export default function About() {
               </div>
 
               <div
-                className={`col-md-3 pb-0 px-4 bg-white ${styles.service_container} ${styles.purbel_border}`}
+                className={` pb-0 bg-white ${styles.service_container} ${styles.purbel_border}`}
+                style={{ width: "22%" }}
               >
                 <div className={`px-3 mt-5 ${styles.service}`}>
                   <span className={`mb-3 ${styles.mobile_icon}`}>
